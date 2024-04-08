@@ -1,5 +1,6 @@
 package com.softtek.modelo.Ej6;
 
 public interface IDAO {
-    String insertar();
+    String insertar(Cliente cliente);
+
 }

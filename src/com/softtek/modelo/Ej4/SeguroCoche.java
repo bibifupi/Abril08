@@ -5,6 +5,22 @@ public class SeguroCoche {
     private String aseguradora;
 
     public String reparar(){
-        return "Arreglando";
+        return taller.reparar();
+    }
+
+    public ITaller getTaller() {
+        return taller;
+    }
+
+    public void setTaller(ITaller taller) {
+        this.taller = taller;
+    }
+
+    public String getAseguradora() {
+        return aseguradora;
+    }
+
+    public void setAseguradora(String aseguradora) {
+        this.aseguradora = aseguradora;
     }
 }

@@ -2,8 +2,9 @@ package com.softtek.modelo.Ej3;
 
 public class Conductor {
     private IVehiculo vehiculo;
-    public String conducir(){
-        return "Conduciendo";
+
+    public String conducir() {
+        return vehiculo.moverse();
     }
 
     public Conductor() {

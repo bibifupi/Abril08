@@ -7,7 +7,14 @@ public class ClienteDAO {
         this.conexion = conexion;
     }
 
-    public String insertar(Cliente c1) {
-        return conexion.insertar();
+    public String insertar(Cliente cliente) {
+        return conexion.insertar(cliente);
+    }
+
+    @Override
+    public String toString() {
+        return "ClienteDAO{" +
+                "conexion=" + conexion +
+                '}';
     }
 }

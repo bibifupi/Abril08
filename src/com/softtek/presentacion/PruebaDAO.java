@@ -10,7 +10,8 @@ public class PruebaDAO {
 
         ClienteDAO clienteDaoProd = new ClienteDAO(accesoProd);
         ClienteDAO clienteDaoDev = new ClienteDAO(accesoDev);
-
+        clienteDaoProd.insertar(cliente);
+        System.out.println(clienteDaoProd.toString());
         System.out.println(clienteDaoProd.insertar(cliente));
         System.out.println(clienteDaoDev.insertar(cliente));
     }

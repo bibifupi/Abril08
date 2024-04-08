@@ -6,7 +6,12 @@ public class AccesoDesarrollo implements IDAO{
     }
 
     @Override
-    public String insertar() {
-        return "Insertado Desarrollo";
+    public String insertar(Cliente cliente) {
+        return "Desarrollo"+cliente.toString();
+    }
+
+    @Override
+    public String toString() {
+        return "AccesoDesarrollo{}";
     }
 }

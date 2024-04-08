@@ -2,7 +2,7 @@ package com.softtek.modelo.Ej4;
 
 public class TallerPintura implements ITaller{
     @Override
-    public <coche> String reparar() {
+    public String reparar() {
         return "Pintando";
     }
 

@@ -12,6 +12,14 @@ public class Cliente {
     public Cliente() {
     }
 
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + nombre + '\'' +
+                ", NIF='" + NIF + '\'' +
+                '}';
+    }
+
     public String getNombre() {
         return nombre;
     }

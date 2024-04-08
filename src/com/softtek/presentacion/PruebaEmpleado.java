@@ -13,6 +13,7 @@ public class PruebaEmpleado {
 
         InformeTrimestre1 i1 = new InformeTrimestre1();
         InformeTrimestre2 i2 = new InformeTrimestre2();
+Empleado director = new Director(i1);
 
         Informe informeDelJefe = new Informe() {
             @Override
